@@ -2,7 +2,7 @@
   "name": "news-expressjs-prep",
   "version": "1.0.0",
   "description": "SoftUni: ME*N stack exam prep",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +12,18 @@
   },
   "keywords": [],
   "author": "Nikola Angelov",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nangelov1990/news-expressjs-prep/issues"
   },
-  "homepage": "https://github.com/nangelov1990/news-expressjs-prep#readme"
+  "homepage": "https://github.com/nangelov1990/news-expressjs-prep#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "dependencies": {
+    "express": "4.14.0"
+  }
 }
